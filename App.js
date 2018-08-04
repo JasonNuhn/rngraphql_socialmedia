@@ -12,9 +12,9 @@ export default class App extends React.Component {
         {/* <Image
         /> */}
         <View style={styles.buttonRow}>
-          <Button style={styles.button} title={'like'} onPress={console.log}/>
-          <Button style={styles.button} title={'share'} onPress={console.log}/>
-          <Button style={styles.button} title={'comment'} onPress={console.log}/>
+          <Button style={styles.button} title={'likes'} onPress={console.log}/>
+          <Button style={styles.button} title={'shares'} onPress={console.log}/>
+          <Button style={styles.button} title={'comments'} onPress={console.log}/>
         </View>
         <View style={styles.commentContainer}>
           <Text style={styles.comment}>Some User: A comment on the picture</Text>
